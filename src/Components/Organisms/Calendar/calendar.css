@@ -1,0 +1,139 @@
+/* src/App.css */
+.App {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .calendar {
+    width: 360px;
+    margin: 0 auto;
+    padding: 12px;
+    background-color: black;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    border: none;
+    border-radius: 12px;
+  }
+  .calendar__header {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .calendar__header__h2 {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+  }
+  .calendar__header__button--left,
+  .calendar__header__button--right {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+  .calendar__header__button--right__icon, 
+  .calendar__header__button--left__icon  {
+    width: 24px;
+    color: #fff;
+  }
+  .weekdays {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+  }
+  .weekday {
+    width: 14.28%; /* 100% dividido por 7 días */
+    font-size: 12px;
+    text-align: center;
+    font-weight: 200;
+    color: #aaa;
+  }
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .day {
+    width: 14.28%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .other-month {
+    color: #aaa; /* Colorea los días de otros meses en un tono más claro */
+  }
+  .current-week {
+    background-color: #161616; /* Resalta la semana actual en amarillo */
+    border: none;
+  }  
+  .current-day {
+    width: 70%;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0099DD;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  .event-day {
+    font-weight: bold;
+    width: 70%;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #038C73;
+  }
+  .event-hard {
+    font-weight: bold;
+    width: 70%;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #F25C05;
+    color: #1b1b1b;
+  }
+  .event-normal {
+    font-weight: bold;
+    width: 70%;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #F29F05;
+    color: #1b1b1b;
+  }
+  .event-slow {
+    font-weight: bold;
+    width: 70%;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #F2E416;
+    color: #1b1b1b;
+  }
+
+  .multi-day-event {
+    background-color: rgba(137, 43, 226, 0.479);
+  }
+  
+  
+  
+  
+
+ 
