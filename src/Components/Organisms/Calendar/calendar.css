@@ -132,6 +132,36 @@
     background-color: rgba(137, 43, 226, 0.479);
   }
   
+
+  .calendar-more-events {
+    width: 100%;
+    height: auto;
+    padding: 0 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .calendar-more-events__button {
+    width: 160px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    background-color: rgb(34, 34, 34);
+    border-radius: 8px;
+  }
+  .calendar-more-events__button__p {
+    font-size: 14px;
+    font-weight: 200;
+  }
+
+
+  .calendar-more-events__button__icon {
+    width: 16px;
+  }
   
   
   

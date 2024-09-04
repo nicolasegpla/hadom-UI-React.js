@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react"
-import { ChevronLeftIcon, ChevronRightIcon } from "@heroicons/react/24/outline"
+import { ChevronLeftIcon, ChevronRightIcon, PlusIcon } from "@heroicons/react/24/outline"
 import dayjs from "dayjs"
 import isBetween from 'dayjs/plugin/isBetween'; // Importa el plugin isBetween
 import 'dayjs/locale/es'
@@ -123,6 +123,12 @@ function Calendar({eventsList, multiEventProp}) {
                         
                     </div>
                 ))}
+                </div>
+                <div className="calendar-more-events">
+                    <button className="calendar-more-events__button">
+                        <PlusIcon className="calendar-more-events__button__icon" />
+                        <p className="calendar-more-events__button__p">Agregar Evento</p>
+                    </button>
                 </div>
             </div>
         </>
